@@ -568,6 +568,7 @@ footer {
 }
 
 #contacto2 a{
+    text-decoration: none;
     color: black;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
@@ -575,7 +576,7 @@ footer {
 
 
 /* Estilos para pantallas con un ancho máximo de 480px */
-@media (max-width: 580px) {
+@media (max-width: 480px) {
     #titulo {
         font-size: 20px;
         margin: 30px;
@@ -593,13 +594,13 @@ footer {
 
     #menu ul{
         padding-right: 300px;
-/*         background-color: rebeccapurple; */
+        background-color: rebeccapurple;
     }
 
     #menu li {
         padding-bottom: 20px;
         font-size: 14px;
-/*         background-color: yellow; */
+        background-color: yellow;
     }
 
     .logo {
