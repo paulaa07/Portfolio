@@ -17,12 +17,13 @@ h4 {
 }
 
 :root {
-    --azul: #99c1da;
+    --azul: #009dff;
     --rojo: #f16d69;
-    --verde: #7cccbe;
-    --rosa: #fcaaac;
-    --amarillo: #f9e79f;
+    --verde: #00ffd5;
+    --rosa: #ff89f7;
+    --amarillo: #ffcc01;
     --gris: #b2c0cb;
+    scroll-behavior: smooth;
 }
 
 
@@ -38,7 +39,7 @@ body {
 #cabecera {
     display: flex;
     justify-content: space-between;
-    background: rgb(178, 204, 255);
+    /* background: rgb(178, 204, 255); */
     background: linear-gradient(315deg, #41464b 0%, #6e777e 67%);
     color: #fff;
     padding: 10px;
@@ -53,8 +54,8 @@ body {
 #titulo {
     text-align: left;
     font-size: 36px;
-    margin: 100px;
-    margin-top: 40px;
+    margin: 170px;
+    margin-top: 60px;
     width: 50%;
     z-index: 1;
 }
@@ -105,13 +106,6 @@ menu ul {
     text-decoration: none;
     padding: 5px;
     font-size: 20px;
-
-    /* margin-left: 350px;
-position: absolute;
-animation-iteration-count: 1;
-animation-fill-mode: backwards;
-
-animation: menu 5s linear infinite; */
 }
 
 @keyframes menu {
