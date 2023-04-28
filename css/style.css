@@ -3,7 +3,6 @@
 p {
     font-family: 'Mulish', sans-serif;
     line-height: 1.5em;
-    text-align: justify;
 }
 
 h1,
@@ -143,7 +142,6 @@ menu ul {
 #sobreMi {
     display: flex;
     justify-content: space-around;
-    text-align: justify;
     margin: 70px;
     height: 100%;
     /* background-color: rgb(255, 0, 144); */
@@ -418,9 +416,6 @@ menu ul {
 }
 
 #sec21 {
-    /* border: 1px solid #fcaaac;    */
-    /* color: #ffd1d2c3; */
-    text-align: justify;
     width: 30%;
     margin: 5%;
     margin-left: 9%;
@@ -472,8 +467,6 @@ img {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
-    /* background-color: #848e97; */
-    text-align: justify;
 }
 
 #sec31 .image-container {
@@ -680,7 +673,6 @@ footer {
 
     #sec12 p {
         font-size: 15px;
-        text-align: justify;
         justify-content: center;
         /* background-color: yellow; */
     }
